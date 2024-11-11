@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "
-Welcome to My Network Tool
+Welcome to My Network Tool!
 1) Check Network Interface Information
 2) Ping a Host
 3) Port Scan with Nmap
@@ -15,7 +15,7 @@ while [ $input != 6 ];
 do 
     case $input in 
         "1")
-            echo Network Interface Information
+            echo Network Interface Information:
             ifconfig
         ;;
         "2")
@@ -37,7 +37,9 @@ do
             traceroute $input
         ;;
     esac
-    echo "
+    echo " 
+    What do you want to do next?
+    
 1) Check Network Interface Information
 2) Ping a Host
 3) Port Scan with Nmap
