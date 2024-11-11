@@ -37,6 +37,13 @@ do
             traceroute $input
         ;;
     esac
+    echo "
+1) Check Network Interface Information
+2) Ping a Host
+3) Port Scan with Nmap
+4) Display Routing Table
+5) Traceroute to Host
+6) Exit"
     read input
     if [ $input = 6 ]; then 
         break
