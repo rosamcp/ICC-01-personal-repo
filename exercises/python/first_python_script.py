@@ -22,5 +22,9 @@ while option != "3" :
     option = input()
     if option == "1":
         read_and_display()
-    if option == "2":
+    elif option == "2":
         write_name()
+    elif option == "3":
+        break
+    else:
+        print ("\nInvalid selection \n")
